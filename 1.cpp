@@ -5,16 +5,21 @@ class oil {
 public:
 	int age;
 	std::string name;
+	void print() {
+		std::cout << age << "\n" << name << std::endl;
+	}
 };
 
 int main(){
 	 
 	oil MI;
-	MI.age = 19;
-	MI.name = "Нариман";
+	MI.age;
+	MI.name;
+	std::cin >> MI.age;
+	std::cin >> MI.name;
+	MI.print();
 
-
-	std::cout << MI.age << "\n" << MI.name << std::endl;
+	
 	return 0;
 
 }
