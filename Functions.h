@@ -40,23 +40,20 @@ namespace Prog2 {
 	class hero {
 	private:
 		std::string name;
-		int complexity;
 		int wisdom;
 	public:
 		hero(std::string valueName) {
 			name = valueName;
-			wisdom = 0;
-			complexity = 0;
+			wisdom = 0;			
 		}
 		hero(std::string valueName, int valuewisdom) {
 			name = valueName;
 			wisdom = valuewisdom;
-			complexity = 0;
 		}
 
 		int get()const{
 
-			return this->wisdom;
+			return wisdom;
 		}
 		void set(int x) {
 
